@@ -1,8 +1,8 @@
 abstract class Animal {
     String name;
 
-    public void makeSound(){
-        System.out.println("Dyr laver en lyd");
+    public abstract void makeSound();
+    public abstract boolean eat(String foodType);
 
-    }
+
 }
