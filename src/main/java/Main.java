@@ -8,6 +8,8 @@ public class Main {
         animal2.makeSound();
         animal1.eat("Mad");
         animal2.eat("mad");
+        animal1.showMood(true);
+        animal2.showMood(false);
 
 
     }
